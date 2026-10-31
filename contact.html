@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | DKSS Legal</title>
+     
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- <link rel="stylesheet" href="/assests/contact.css"> -->
+        <link rel="stylesheet" href="/assests/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="loader"></div>
+        </div>
+
+        <!-- Custom Cursor -->
+        <div class="cursor"></div>
+
+        <!-- Disclaimer Banner -->
+        <div class="disclaimer-banner" id="disclaimerBanner">
+            <p>Disclaimer: The information on this website is for general
+                information purposes only. Nothing on this site should be taken
+                as legal advice for any individual case or situation. This
+                information is not intended to create, and receipt or viewing
+                does not constitute, an attorney-client relationship.</p>
+            <button class="close-disclaimer" id="closeDisclaimer">×</button>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <div class="container header-container">
+
+                <!-- LOGO -->
+                <a href="/index.html" class="logo">
+                    <img src="assests/images/logo.png" alt="Company Logo">
+                </a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Navigation -->
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/practice.html">Practice We Offer</a></li>
+                    </ul>
+                    <a href="/contact.html" class="btn nav-btn">Contact Us</a>
+                </nav>
+
+            </div>
+        </header>
+
+        <!-- Page Banner -->
+        <section class="page-banner">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p class="section-subtitle">We're here to help with your
+                        legal needs. Reach out to schedule a consultation.</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Start a Conversation</h3>
+                        <p>We're available for consultations and would be happy
+                            to discuss your legal needs. Contact us today to
+                            schedule an appointment.</p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <strong>Phone:</strong><br>
+                                    (212) 555-7890
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <strong>Email:</strong><br>
+                                    contact@dksslegal.com
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <strong>Main Office:</strong><br>
+                                    123 Park Avenue, Suite 1500<br>
+                                    New York, NY 10017
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <strong>Business Hours:</strong><br>
+                                    Mon-Fri: 9:00 AM - 6:00 PM<br>
+                                    Sat: 10:00 AM - 2:00 PM
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value>Select a service</option>
+                                    <option value="corporate">Corporate
+                                        Law</option>
+                                    <option value="contract">Contract
+                                        Law</option>
+                                    <option
+                                        value="litigation">Litigation</option>
+                                    <option value="mergers">Mergers &
+                                        Acquisitions</option>
+                                    <option value="compliance">Regulatory
+                                        Compliance</option>
+                                    <option value="advisory">Business
+                                        Advisory</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message"
+                                    placeholder="Please describe your legal needs..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send
+                                Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <div class="footer-logo-container">
+                            <!-- LOGO -->
+                            <a href="/index.html" class="logo">
+                                <img src="/assests/images/logo.png"
+                                    alt="Company Logo">
+                            </a>
+                        </div>
+                        <p>Comprehensive range of legal services designed to
+                            address
+                            the diverse needs of individuals and businesses
+                            across
+                            multiple sectors.</p>
+                        <!-- <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div> -->
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/practice.html">Practice Areas</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Practice Areas Links</h4>
+                        <ul>
+                            <li><a href="/assests/practices/Arbitration.html">Arbitration</a></li>
+                            <li><a href="/assests/practices/Criminal-Litigations.html">Criminal Litigations</a></li>
+                            <li><a href="/assests/practices/Cyber-Crime.html">Cyber Crime</a></li>
+                            <li><a href="/assests/practices/Family-Disputes.html">Family Disputes</li>
+                            <li><a href="/practice.html">View All Practice</li>    
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a
+                                    href="/assests/legal/privacy-policy.html">Privacy
+                                    Policy</a></li>
+                            <li><a href="#/assests/legal/terms-of-us.html">Terms
+                                    of
+                                    Use</a></li>
+                            <li><a
+                                    href="/assests/legal/disclamer.html">Disclaimer</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Contact Details </h4>
+                        <ul>
+                            <li><a href="#">Address: 589, 631- FFM, Ansal
+                                    Sumangalam, RDC, Block 1, P & T Colony, Raj
+                                    Nagar, Ghaziabad, Uttar Pradesh
+                                    201002.</a></li>
+                            <li><a href="#">Ph.: 91 8178007968, 0120- 4217644
+                                    Email: contactus@dksslegal.com
+                                    Mon to Sat: 10.00 AM – 6.00 PM</li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <p>&copy; 2025 DKSS Legal. All Rights Reserved. | Design
+                            &
+                            Development by <a href="https://manavportfolio.in"
+                                target="_blank">manavportfolio.in</a>
+                        </div>
+                    </div>
+                </footer>
+
+
+                        <!-- Back to Top Button -->
+                        <div class="back-to-top">
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+                        <script
+                            src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+                        <script src="/assests/js/index.js"></script>
+                    </body>
+
+                </html>
